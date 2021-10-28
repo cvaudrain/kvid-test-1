@@ -1,0 +1,18 @@
+{
+  "name": "kvid",
+  "version": "1.0.0",
+  "description": "customer facing payment app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cv",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "path": "^0.12.7",
+    "stripe": "^8.184.0"
+  }
+}
